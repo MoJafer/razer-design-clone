@@ -1,0 +1,41 @@
+nav {
+  background-color: #222;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 60px;
+
+  a:link,
+  a:visited {
+    margin: 0 10px;
+    color: #999;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+
+    img {
+      width: 90px;
+    }
+  }
+
+  #bars {
+    display: none;
+  }
+
+  .menu,
+  .search-form {
+    flex: 1;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .search-form {
+    display: none;
+  }
+}
